@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-page {
+    width: 100%;
+    background-color: rgb(170, 225, 255);
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header-page h1, .header-page a {
+    color: rgb(232, 255, 255);
+    justify-content: center;
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* General styling for all designs */
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #f0f0f0;
+}
+
+.design1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e0e0e0; /* Example background color */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.logo1 img {
+    width: 100px; /* Adjust the size as needed */
+    height: auto; /* Maintains aspect ratio */
+}
+
+.buttons1 {
+    display: flex;
+    gap: 20px; /* Space between nav buttons */
+    list-style: none;
+    padding: 0;
+}
+
+.buttons1 a {
+    color: rgb(242, 235, 50);
+    text-decoration: none;
+    padding: 10px;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+.buttons1 a:hover {
+    color: rgb(232, 255, 255);
+}
+
+.design2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: rgba(85, 87, 87, 0.8);
+    margin-bottom: 20px;
+}
+
+.logo {
+    font-size: 36px;
+    font-weight: 700;
+    text-decoration: none;
+    color: rgb(255, 225, 235);
+}
+
+.navbar {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    padding: 0;
+}
+
+.navbar a {
+    font-size: 22px;
+    color: rgb(255, 225, 235);
+    text-decoration: none;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.navbar a:hover {
+    color: rgb(214, 170, 185);
+}
+
+/* Design #3 */
+.design3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d0d0d0; /* Example background color */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.buttons3 {
+    display: flex;
+    gap: 20px;
+}
+
+.buttons3 a {
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.buttons3 .logo {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+/* Design #4 */
+.design4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c0c0c0; /* Example background color */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.buttons4 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.buttons4 .nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.buttons4 a {
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.buttons4 .logo {
+    font-weight: bold;
+    font-size: 22px;
+}
