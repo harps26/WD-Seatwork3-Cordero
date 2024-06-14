@@ -30,9 +30,20 @@ section {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #e0e0e0; /* Example background color */
+    background-color: #ffffff; /* White background */
     padding: 20px;
     margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 -4px 6px rgba(0, 0, 0, 0.1); /* Drop shadow */
+    position: relative; /* To position the "inside out" text */
+}
+
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 .logo1 img {
@@ -48,15 +59,17 @@ section {
 }
 
 .buttons1 a {
-    color: rgb(242, 235, 50);
+    color: rgba(242, 235, 50, 0.8); /* Transparent yellow */
     text-decoration: none;
     padding: 10px;
-    background-color: #333;
+    background-color: transparent; /* Transparent button */
+    border: 1px solid rgba(242, 235, 50, 0.8); /* Transparent border */
     border-radius: 5px;
 }
 
 .buttons1 a:hover {
     color: rgb(232, 255, 255);
+    background-color: rgba(242, 235, 50, 0.8); /* Hover background color */
 }
 
 .design2 {
@@ -154,4 +167,245 @@ section {
 .buttons4 .logo {
     font-weight: bold;
     font-size: 22px;
+}
+
+.design5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff; /* Example background color */
+}
+
+.side-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.logo5 img {
+    width: 100px; /* Adjust the size as needed */
+    height: auto; /* Maintains aspect ratio */
+    margin-bottom: 20px;
+}
+
+.menu5 {
+    list-style: none;
+    padding: 0;
+}
+
+.menu5 li {
+    margin-bottom: 10px;
+}
+
+.menu5 a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.menu5 a:hover {
+    color: #555;
+}
+
+.header-page2 {
+    width: 100%;
+    background-color: rgb(170, 225, 255);
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header-page2 h1 {
+    color: rgb(232, 255, 255);
+    justify-content: center;
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.design1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff; /* White background */
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 -4px 6px rgba(0, 0, 0, 0.1); /* Drop shadow */
+    position: relative; /* To position the "inside out" text */
+}
+
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.logo1-an img {
+    width: 100px; /* Adjust the size as needed */
+    height: auto; /* Maintains aspect ratio */
+}
+
+.buttons1-an {
+    display: flex;
+    gap: 20px; /* Space between nav buttons */
+    list-style: none;
+    padding: 0;
+}
+
+
+.buttons1-an a{
+    text-decoration: none;
+    color: #000;
+}
+
+.design2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: rgba(85, 87, 87, 0.8);
+    margin-bottom: 20px;
+}
+
+.logo2-an {
+    font-size: 36px;
+    font-weight: 700;
+    text-decoration: none;
+    color: rgb(255, 225, 235);
+}
+
+.buttons2-an {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    padding: 0;
+}
+
+.buttons2-an a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+/* Design #3 */
+.design3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d0d0d0; /* Example background color */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.buttons3-an {
+    display: flex;
+    gap: 20px;
+}
+
+.buttons3-an a {
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.buttons3-an .logo3-an {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+/* Design #4 */
+.design4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c0c0c0; /* Example background color */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.buttons4-an {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.buttons4-an .nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.buttons4-an a {
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.buttons4-an .logo4-an {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.design5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff; /* Example background color */
+}
+
+.side-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.logo5-an img {
+    width: 100px; /* Adjust the size as needed */
+    height: auto; /* Maintains aspect ratio */
+    margin-bottom: 20px;
+}
+
+.buttons5-an {
+    list-style: none;
+    padding: 0;
+}
+
+.buttons5-an li {
+    margin-bottom: 10px;
+}
+
+.buttons5-an a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.buttons5-an a:hover {
+    color: #555;
+}
+
+.header-page2 {
+    width: 100%;
+    background-color: rgb(170, 225, 255);
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header-page2 h1 {
+    color: rgb(232, 255, 255);
+    justify-content: center;
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
 }
