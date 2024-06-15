@@ -57,21 +57,29 @@ section {
     gap: 20px; /* Space between nav buttons */
     list-style: none;
     padding: 0;
+    font-family: 'Titillium Web';
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+}
+
+.buttons1 li {
+    display: inline-block;
+    list-style: outside none none;
+    margin: .5em 1em;
+    padding: 0;
 }
 
 .buttons1 a {
-    color: rgba(242, 235, 50, 0.8); /* Transparent yellow */
+    padding: .5em .8em;
+    color: rgba(255, 255, 255, .5);
+    position: relative;
     text-decoration: none;
-    padding: 10px;
-    background-color: transparent; /* Transparent button */
-    border: 1px solid rgba(242, 235, 50, 0.8); /* Transparent border */
-    border-radius: 5px;
+    font-size: 20px;
+    color: #000; /* Ensure text color is black */
 }
 
-.buttons1 a:hover {
-    color: rgb(232, 255, 255);
-    background-color: rgba(242, 235, 50, 0.8); /* Hover background color */
-}
+
 
 .design2 {
     display: flex;
@@ -87,7 +95,7 @@ section {
     font-size: 36px;
     font-weight: 700;
     text-decoration: none;
-    color: rgb(255, 225, 235);
+    color: rgb(255, 255, 255);
 }
 
 .navbar {
@@ -99,15 +107,13 @@ section {
 
 .navbar a {
     font-size: 22px;
-    color: rgb(255, 225, 235);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: 500;
     transition: .3s;
 }
 
-.navbar a:hover {
-    color: rgb(214, 170, 185);
-}
+
 
 /* Design #3 */
 .design3 {
