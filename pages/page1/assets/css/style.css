@@ -538,22 +538,16 @@ section {
 
 /* Design #4 */
 .design4 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #c0c0c0; /* Example background color */
-    padding: 20px;
-    margin-bottom: 20px;
+    max-width: 100 px;
+    height: 10px;
+    width: 100%;
+    margin: 2rem auto;
+    padding: 5rem;
+    text-align: center;
+    background: #fff;
+    border: 0.5rem solid #34495e;
 }
 
-.btn3::before{
-    width: 100%;
-    height: 0%;
-    transform: translate(-50%,-50%) rotate(45deg);
-  }
-  .btn3:hover::before{
-    height: 380%;
-  }
 
 .buttons4-an {
     display: flex;
@@ -578,6 +572,25 @@ section {
     font-weight: bold;
     font-size: 22px;
 }
+
+
+  
+.logo4-an{
+    display: block;
+    font-size: 24px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+    padding: 10px;
+    letter-spacing: 2px;
+    transition: all .25s;
+  }
+  
+  .logo4-an:hover{
+    letter-spacing: 15px;
+  }
 
 .design5 {
     display: flex;
