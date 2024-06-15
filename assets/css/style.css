@@ -5,11 +5,26 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  background-image: url('https://64.media.tumblr.com/bcd7f466b6dcf30020ea54f753d54c0b/5325d885fc3f3f9d-3a/s540x810/e813c6a65ba6f25dc3637785f7e8274015b4524d.png');
+  background-image: url('https://static.vecteezy.com/system/resources/previews/017/067/277/non_2x/purple-gradient-background-art-free-vector.jpg');
   background-size: cover;
   }
   .container {
   text-align: center;
+  }
+
+  .container h1{
+    font-size: 70px;
+    color: aliceblue;
+  }
+
+  .container h2{
+    font-size: 50px;
+    color: aliceblue;
+  }
+
+  .container p{
+    font-size: 25px;
+    color: aliceblue;
   }
   .buttons {
   margin-top: 20px;
@@ -18,12 +33,12 @@ body {
   text-decoration: none;
   padding: 10px 20px;
   margin: 5px;
-  background-color: #ff85a2;
+  background-color: #c372f5;
   color: white;
   border-radius: 5px;
   }
   .btn:hover {
-  background-color: #d66fc9;
+  background-color: #d98af2;
   }
   
   & .kirby {
