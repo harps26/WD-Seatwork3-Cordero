@@ -203,7 +203,9 @@ a button {
     justify-content: space-between;
     width: 100%;
     align-items: center;
-}
+    font-size: 25px;
+  }
+
 
 .buttons4 .nav-links {
     display: flex;
@@ -714,6 +716,48 @@ a button {
     cursor: pointer;
 }
 
+.hvr-float-shadow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .hvr-float-shadow:before {
+    pointer-events: none;
+    position: absolute;
+    z-index: -1;
+    content: '';
+    top: 100%;
+    left: 5%;
+    height: 10px;
+    width: 90%;
+    opacity: 0;
+    background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+    /* W3C */
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform, opacity;
+    transition-property: transform, opacity;
+  }
+  .hvr-float-shadow:hover, .hvr-float-shadow:focus, .hvr-float-shadow:active {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+    /* move the element up by 5px */
+  }
+  .hvr-float-shadow:hover:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:active:before {
+    opacity: 1;
+    -webkit-transform: translateY(5px);
+    transform: translateY(5px);
+    /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
+  }
+
 
 /* <-----------------Design 4 an----------------------> */
 .design4 {
@@ -727,35 +771,51 @@ a button {
     border: 0.5rem solid #702ca5;
 }
 
-
 .buttons4-an {
     display: flex;
     justify-content: space-between;
     width: 100%;
     align-items: center;
-}
+    font-size: 25px;
+  }
 
-.buttons4-an .nav-links {
+  .buttons4-an .nav-links-an {
     display: flex;
     gap: 20px;
-}
+  }
 
-.buttons4-an a {
-    font-size: 18px;
-    color: #000;
-    text-decoration: none;
+  .nav-links-an a {
+    position: relative;
+    display: inline-block;
     padding: 10px;
-}
+    text-decoration: none;
+    color: #000;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
 
-.buttons4-an .logo4-an {
+  .nav-links-an a:before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #54038a;
+    transform: scale(0);
+    transition: transform 0.3s ease;
+  }
+
+  .nav-links-an a:hover:before {
+    transform: scale(1);
+  }
+
+  .nav-links-an a:hover {
+    color: white;
+  }
+
+.logo4-an {
     font-weight: bold;
     font-size: 22px;
-}
-
-.logo4-an{
-    display: block;
-    font-size: 24px;
-    font-family: sans-serif;
     text-decoration: none;
     color: #333;
     border-top: 2px solid #333;
@@ -763,11 +823,11 @@ a button {
     padding: 10px;
     letter-spacing: 2px;
     transition: all .25s;
-  }
+}
 
-  .logo4-an:hover{
+.logo4-an:hover {
     letter-spacing: 15px;
-  }
+}
 
 /* <-----------------Design 5 an----------------------> */
 .design5-an {

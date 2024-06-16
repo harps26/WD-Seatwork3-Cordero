@@ -2,7 +2,6 @@
     margin: 0;
     padding: 10px 0;
     box-sizing: border-box;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .header-page {
@@ -23,7 +22,7 @@ body {
   padding: 0;
 }
 
-/* <-----------------Design 2----------------------> */
+/* <-----------------Design 1----------------------> */
 
 .footer-5 {
     background-color: #607D8B;
@@ -45,10 +44,6 @@ body {
     margin-right: 10px;
 }
 
-.footer-5 .social-media a:hover {
-    color: #ccc;
-}
-
 .footer-5 .navbar-footer ul {
     list-style: none;
     display: flex;
@@ -61,7 +56,9 @@ body {
     font-size: 18px;
 }
 
-/* <-----------------Design 5----------------------> */
+
+
+/* <-----------------Design 2----------------------> */
 .footer-6 {
     background-color: #333;
     color: #fff;
@@ -200,7 +197,7 @@ body {
 }
 
 /* <-----------------Design 5----------------------> */
-.footer-9 {
+.footer-5 {
     background-color: #607D8B;
     color: #fff;
     padding: 20px;
@@ -209,29 +206,188 @@ body {
     align-items: center;
 }
 
-.footer-9 .footer-content {
+.footer-5 .footer-content {
     flex: 1;
 }
 
-.footer-9 .social-media {
+.footer-5 .social-media {
     flex: 1;
 }
 
-.footer-9 .legal {
+.footer-5 .legal {
     text-align: right;
 }
 
-.footer-9 .social-media a {
+.footer-5 .social-media a {
     color: #fff;
     text-decoration: none;
     font-size: 24px;
     margin-left: 10px;
 }
 
-.footer-9 .social-media a:hover {
+.footer-5 .social-media a:hover {
     color: #ccc;
 }
 
-.footer-9 .legal p {
+.footer-5 .legal p {
     margin: 0;
 }
+
+/* <-----------------Animations----------------------> */
+
+/* <-----------------Design 4 an----------------------> */
+.container{
+    max-width: 1170px;
+    margin:auto;
+  }
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  ul{
+    list-style: none;
+  }
+  .footer{
+    background-color: #201925;
+      padding: 70px 0;
+  }
+  .footer-col{
+     width: 25%;
+     padding: 0 15px;
+  }
+  .footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+  }
+  .footer-col h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: #5b1ee9;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+  }
+  .footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+  }
+  .footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  .footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+  }
+  .footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+  }
+  .footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+  }
+
+  /*responsive*/
+  @media(max-width: 767px){
+    .footer-col{
+      width: 50%;
+      margin-bottom: 30px;
+  }
+  }
+  @media(max-width: 574px){
+    .footer-col{
+      width: 100%;
+  }
+  }
+
+/* <-----------------Design 5 an----------------------> */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer-5-an {
+  position: relative;
+  width: 100%;
+  background: #7c35ff;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.menu__link {
+  font-size: 1.2rem;
+  color: #ece9e9;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+
+.menu__link:hover {
+  opacity: 100;
+}
+
+.footer-5-an p {
+  color: #fff;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+
