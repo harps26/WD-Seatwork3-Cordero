@@ -6,7 +6,7 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/yien26.png" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Header and Footer Styles</h3>
@@ -57,13 +57,22 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
+The project is a website consisting of two main pages. Each page has specific components: one page contains 10 headers, and the other page contains 10 footers. Five of these headers and footers are static (unchanging), while the other five are animated.
 
 Guiding Question:
-- What is the project
-- Whats the purpose
+- The purpose of the website is to showcase a design concept where headers and footers are prominent features. Headers typically contain navigation links, titles, or branding elements at the top of a webpage. Footers, on the other hand, usually contain supplementary information, contact details, social media links, or other relevant content at the bottom of a webpage. The inclusion of animated footers adds a dynamic and engaging element to the user experience.
+
 - What are key components
+- Headers Page:
+  - 10 distinct headers showcasing different styles or functionalities.
+  - Each header may include navigation menus, logos, search bars, or other relevant content.
+- Footers Page:
+  - 10 footers divided into 5 static and 5 animated.
+  - Static footers will display consistent information such as copyright notices, contact information, and links.
+  - Animated footers will feature dynamic content that may include interactive elements or visual effects.
 - What technology used and how it is used
+HTML/CSS: Used for structuring the content (HTML) and styling it (CSS).
+
 
 ### Key Components
 <!-- TODO: List of Key Components -->
@@ -117,4 +126,4 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Hover Effects | Used as reference to get hover effects | https://ianlunn.github.io/Hover/ |
